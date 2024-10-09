@@ -38,11 +38,14 @@ To address the lack of racial diversity, in this paper we selected representativ
 
 **Our contributions are as follows: \\**
 We combined several benchmark datasets, i.e., UTK-Face, Morph, FG-Net, and All-Age- Faces, to form a single dataset and applied techniques including face detection, cropping, image enhancement, and emotion detection to ensure the selection of good quality neutral face images without background. 
+
  We conducted experiments to compare large and small features sets and results indicate conservative feature extraction techniques that yield smaller number of features improve model accuracy and reduce the need to apply feature selection.    
 
 **2 Methodology
+
+**
 2.1 Data Sampling, Filtering
-and Labelling**
+and Labelling****
 In this paper we have utilized four different bench- mark datasets: UTK-Face, Fg-Net,
 Morph and All-age-faces [4][25]. The UTK-Face
 consists of more than 20000 images of people between 0-116 years in unconstrained conditions;

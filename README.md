@@ -76,3 +76,7 @@ images from Fg-Net, 5000 images from All- AgeFaces, 1112 images from UTK-Face an
 18 or older to class 0. Figures 1,2,3 and 4 show
 the distribution of images of the final dataset in
 terms of age, gender, race and binary age groups.
+
+
+
+![age](https://github.com/user-attachments/assets/8357c219-8535-4ec8-92e8-47d45a5eb30e)

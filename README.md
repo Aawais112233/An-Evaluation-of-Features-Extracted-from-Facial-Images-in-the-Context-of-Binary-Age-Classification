@@ -80,3 +80,9 @@ terms of age, gender, race and binary age groups.
 
 
 ![age](https://github.com/user-attachments/assets/8357c219-8535-4ec8-92e8-47d45a5eb30e)
+
+
+![gender_2](https://github.com/user-attachments/assets/89cd880d-7107-4e4c-9010-5f7996a8d139)
+
+
+![race](https://github.com/user-attachments/assets/142f2bf7-5500-46c2-b98d-e75181cd10c8)

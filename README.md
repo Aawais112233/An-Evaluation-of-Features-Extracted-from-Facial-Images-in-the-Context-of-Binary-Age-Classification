@@ -40,3 +40,34 @@ To address the lack of racial diversity, in this paper we selected representativ
 We combined several benchmark datasets, i.e., UTK-Face, Morph, FG-Net, and All-Age- Faces, to form a single dataset and applied techniques including face detection, cropping, image enhancement, and emotion detection to ensure the selection of good quality neutral face images without background. 
  We conducted experiments to compare large and small features sets and results indicate conservative feature extraction techniques that yield smaller number of features improve model accuracy and reduce the need to apply feature selection.    
 
+**2 Methodology
+2.1 Data Sampling, Filtering
+and Labelling**
+In this paper we have utilized four different bench- mark datasets: UTK-Face, Fg-Net,
+Morph and All-age-faces [4][25]. The UTK-Face
+consists of more than 20000 images of people between 0-116 years in unconstrained conditions;
+races present in this dataset include Asian, Black,
+Indian, and others. The Morph dataset consists
+of 55134 images of people in a controlled environment of ages between 16 to 77 years across
+five racial groups (African or Black, European
+or White, Asian, Hispanic and others. Fg-Net
+dataset consists of 1002 images of people aged
+between 0 - 69 years; because no race information is included, we manually checked each image
+2
+and assigned races as follows: B for Black, W for
+White, I for Indian and A for Asian. The final
+benchmark dataset we included is All-Age-Faces
+that consists of Asian; it has 13322 face images
+distributed across ages from 2 to 80.
+We then applied several filtering techniques:
+Viola-Jones [10] and cropping to detect faces
+and eliminate background outside the detection
+bounding boxes; facial expression detection [11]
+to select facial images with neutral expressions;
+and blur detection using Laplacian Variance [12]
+with a threshold of 20 to select clear images only.
+The final dataset consists of 12213 images, 225
+images from Fg-Net, 5000 images from All- AgeFaces, 1112 images from UTK-Face and 5877 images from Morph. Finally, to conduct classification experiments, the ages are binarized by mapping those younger than 18 to class 1 and those
+18 or older to class 0. Figures 1,2,3 and 4 show
+the distribution of images of the final dataset in
+terms of age, gender, race and binary age groups.
